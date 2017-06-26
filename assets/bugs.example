@@ -1,0 +1,23 @@
+const people = [
+  {
+    firstname: 'Howard',
+    lastname: 'Stooge',
+    age: 23
+  },
+  {
+    firstname: 'Evian',
+    lastName: 'Walter',
+    age: 16
+  },
+  {
+    firstNane: 'Freddo',
+    lastName: 'Frog',
+    age: '29'
+  }
+];
+
+const getName = function (person) {
+  return `Name: ${person.firstname} ${person.lastname}`;
+};
+
+console.log(people.map(getName).join('\n'));

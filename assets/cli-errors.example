@@ -1,0 +1,19 @@
+> yarn run flow
+yarn run v0.24.6
+$ "/Users/alanfoster/Documents/Shopkeep/flow-test/node_modules/.bin/flow"
+index.js:24
+ 24:   return `${person.firstname} ${person.lastname}`;
+                        ^^^^^^^^^ property `firstname`. Property not found in
+ 24:   return `${person.firstname} ${person.lastname}`;
+                 ^^^^^^ object literal
+
+index.js:24
+ 24:   return `${person.firstname} ${person.lastname}`;
+                                            ^^^^^^^^ property `lastname`. Property not found in
+ 24:   return `${person.firstname} ${person.lastname}`;
+                                     ^^^^^^ object literal
+
+
+Found 2 errors
+error Command failed with exit code 2.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
