@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function (Presentation) {
-  const slidesUrl = 'https://alanfoster.github.io/flow-and-typescript-lightning-talk';
+  const slidesUrl = 'https://alanfoster.github.io/flow-and-typescript-lightning-presentation';
   return (props) => (
     <div>
       <div style={{
